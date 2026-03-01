@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Study Material Store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f6ff;
+}
+header {
+    background: linear-gradient(90deg,#4e73df,#224abe);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 30px;
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.price {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+button {
+    background: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background: #224abe;
+}
+.payment {
+    background: #e8efff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.whatsapp {
+    background: #25D366;
+}
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #224abe;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Study Material Store</h1>
+    <p>Buy PPTs, Notes & PDFs Easily</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+    <h3>Biology Class 12 Notes</h3>
+    <p>Chapter-wise complete notes</p>
+    <p class="price">₹49</p>
+    <button onclick="alert('Please complete payment using UPI below')">Buy Now</button>
+</div>
+
+<div class="payment">
