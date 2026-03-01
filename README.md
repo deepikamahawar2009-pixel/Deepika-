@@ -1,2 +1,2 @@
-# Deepika-
-Study material sell , pdf sell, ppt sell
+
+study material store 
